@@ -25,15 +25,6 @@ public class NBody {
         return aPlanet;
     }
 
-    public static void drawBackground(){
-        String backGround = "images/starfield.jpg";
-        double size = 100;
-        StdDraw.setScale(-size, size);
-        /* Clears the drawing window. */
-        StdDraw.clear();
-        StdDraw.picture(0, 0, backGround, size, size);
-    }
-
     public static void main(String[] args){
 
         //Collecting All Needed Input
